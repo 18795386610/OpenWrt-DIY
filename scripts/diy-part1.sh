@@ -10,6 +10,10 @@
 # Description: OpenWrt DIY script part 1 (Before Update feeds)
 #
 
+Diy_Core() {
+	Author=stzm1982
+}
+
 # Uncomment a feed source
 sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
